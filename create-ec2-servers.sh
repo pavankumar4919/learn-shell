@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##### Change these values ###
-ZONE_ID="Z07003722T6UC2Q3P1LO1"
+ZONE_ID="Z07003722T6UC2Q3P1LO1 "
 DOMAIN="pavandevops.com"
 SG_NAME="allow-all"
 #############################
