@@ -7,3 +7,8 @@ cd /app
 unzip /tmp/catalogue.zip
 cd /app
 npm install
+cp configs/catalogue.service /etc/systemd/system/catalogue.service
+systemctl daemon-reload
+cp configs/catalogue.service /etc/yum.repos.d/mongo.repo
+dnf install mongodb-org-shell -y
+mongo --host MONGODB-SERVER-IPADDRESS </app/schema/catalogue.js
