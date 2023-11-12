@@ -21,5 +21,5 @@ cp configs/catalogue.service /etc/yum.repos.d/mongo.repo
 echo -e "\e[32m installing nginx \e[0m"
 dnf install mongodb-org-shell -y
 echo -e "\e[32m installing nginx \e[0m"
-mongo --host MONGODB-SERVER-IPADDRESS </app/schema/catalogue.js
+mongo --host mongodb-dev.pavandevops.com </app/schema/catalogue.js
 
