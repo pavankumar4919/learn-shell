@@ -3,3 +3,5 @@ print_head(){
   second argument $2
 
 }
+
+print_head 123 456
