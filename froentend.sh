@@ -1,6 +1,9 @@
 copy_dir=$(pwd)
 log_file=/tmp/out
 rm -f ${log_file}
+print_head(){
+
+}
 echo -e "\e[32m installing nginx \e[0m"
 dnf install nginx -y &>>${log_file}
 echo -e "\e[32m removing content \e[0m"
