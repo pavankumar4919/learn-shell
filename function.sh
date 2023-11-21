@@ -1,6 +1,6 @@
 print_head(){
-  echo first argument "$1"
-  echo second argument "$2"
+  echo first argument $1
+  echo second argument $2
 
 }
 
