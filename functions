@@ -1,4 +1,4 @@
 pavan(){
-echo -e "neammaneee"
+echo "neammaneee"
 }
 pavan
